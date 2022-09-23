@@ -1,0 +1,62 @@
+{
+  "project_info": {
+    "project_number": "658467463339",
+    "project_id": "chamberapp-8718a",
+    "storage_bucket": "chamberapp-8718a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:658467463339:android:4307a6a681b26f6a5257ee",
+        "android_client_info": {
+          "package_name": "com.tensoftware.chamberapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "658467463339-j6ipoh80n89u30j8m7666qpcp8n8o8c0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tensoftware.chamberapp",
+            "certificate_hash": "9bbb3186b2189ef16d8f272bdab59362c395cbb4"
+          }
+        },
+        {
+          "client_id": "658467463339-qbdrbhp9na2ij2mmh4sbm447s9kv90u7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tensoftware.chamberapp",
+            "certificate_hash": "d46e6e57083a468434fef1cb3675dc57c175238b"
+          }
+        },
+        {
+          "client_id": "658467463339-pc6al73ctnp4nop29krec3brmbqbp8v0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCKJ0pXXU5HgG5JLiewvS3mVdEYGsW08O8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "658467463339-pc6al73ctnp4nop29krec3brmbqbp8v0.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "658467463339-65v1420gmtcu8jsm2plrh86400pus3db.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.tensoftware.chamberapp"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

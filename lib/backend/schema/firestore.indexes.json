@@ -1,0 +1,72 @@
+{
+  "indexes": [
+    {
+      "collectionGroup": "posts",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "post_owner",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Post_Id",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Users",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "is_verify",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "created_time",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "enquiry",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "enquiry_owner",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "enquiry_created",
+          "order": "DESCENDING"
+        }
+      ]
+    },
+    {
+      "collectionGroup": "Payment_Screenshots",
+      "queryScope": "COLLECTION",
+      "fields": [
+        {
+          "fieldPath": "User_id",
+          "order": "ASCENDING"
+        },
+        {
+          "fieldPath": "Created_Time",
+          "order": "DESCENDING"
+        }
+      ]
+    }
+  ],
+  "fieldOverrides": [
+    {
+      "collectionGroup": "fcm_tokens",
+      "fieldPath": "fcm_token",
+      "indexes": [
+        {
+          "order": "ASCENDING",
+          "queryScope": "COLLECTION_GROUP"
+        }
+      ]
+    }
+  ]
+}
